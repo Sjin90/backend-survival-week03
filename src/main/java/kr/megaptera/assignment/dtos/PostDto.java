@@ -5,6 +5,7 @@ public class PostDto {
     private String title;
     private String content;
     public PostDto() {
+
     }
     public PostDto(String id, String title,String content) {
         this.id = id;

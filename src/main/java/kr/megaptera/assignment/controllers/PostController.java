@@ -32,7 +32,7 @@ public class PostController {
     @GetMapping("/{id}")
     @ResponseStatus(HttpStatus.OK)
     public PostDto detailPost(@PathVariable String id) {
-        PostDto postDto = postDtos.get(Integer.parseInt(id)); 
+        PostDto postDto = postDtos.get(Integer.parseInt(id));
         return postDto;
     }
 
